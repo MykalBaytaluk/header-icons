@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1{
+  display: block;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
