@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -11,9 +11,13 @@ body {
   margin: 0;
 }
 
-h1{
+h1 {
   display: block;
   text-align: center;
+}
+
+header {
+  background-color: #d05c2e;
 }
 
 ul {
@@ -28,4 +32,18 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
+}
+
+.left {
+  max-width: 40px;
+  float: left;
+}
+
+.right {
+  max-width: 40px;
+  float: right;
 }
